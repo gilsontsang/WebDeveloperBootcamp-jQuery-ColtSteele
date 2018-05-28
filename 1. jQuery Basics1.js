@@ -19,12 +19,13 @@ $("li a") selects all a (anchor) tags inside li's
 
 Preview into the power of jQuery
 HTML:
-  	var lis = document.querySelectorAll("li");
+	var lis = document.querySelectorAll("li");
     
-    for(var i =0; i<lis.length; i++) {
-    	lis[i].style.background-color = "skyblue";
-    }
-CSS: $("li").css("background-color","skyblue");
+	for(var i =0; i<lis.length; i++) {
+  		lis[i].style.background-color = "skyblue";
+    	}
+CSS: 
+	$("li").css("background-color","skyblue");
 
 We can see CSS significantly shortens the code for us, allowing our code to be more organization.
 
@@ -46,20 +47,19 @@ $("div:first-of-type").css("color","pink");
 // Styling h1
 $("h1").css("border","2px solid red");
 
-/*
-	We can also style our HTMl by first creating styles such as "styles" and "styles2".
-*/
+// We can also style our HTMl by first creating styles such as "styles" and "styles2".
+
 
 // Styles the "styles" class.
 var styles = {
 	backgroundColor: "pink",
-  fontweight: "bold"
+  	fontweight: "bold"
 }
 
 // Styles the "styles2" class.
 var styles2 = {
 	color: "red",
-  background: "lightgreen"
+  	background: "lightgreen"
 }
 
 // Styling body
@@ -74,6 +74,6 @@ $("a").css("font-size", "40px");
 // Styling lists.
 $("li").css({
 	fontSize: "10px",
-  border: "3px dashed purple",
-  background: "rgba(89, 45, 20, 0.5)"
+ 	border: "3px dashed purple",
+  	background: "rgba(89, 45, 20, 0.5)"
 })
