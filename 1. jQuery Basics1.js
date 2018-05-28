@@ -1,5 +1,23 @@
-/* Preview into the power of jQuery
+/* 
+jQuery
+- The most popular tool for Javascript library
+- Helps us manipulate the DOM using pre-made methods and properties
+*Remember, jQuery is like any other java file.
 
+jQuery CDN (content distributed network)
+- Access jQuery from online without downloading to our machine
+
+$() function selects elements // This acts similar to querySelectorAll
+.css() method style elements
+
+ex. 
+$("img") selects all img tags
+$(".sale") selects all class 'sale'
+$("#bonus") selects element with id 'bonus'
+$("li a") selects all a (anchor) tags inside li's
+
+
+Preview into the power of jQuery
 HTML:
   	var lis = document.querySelectorAll("li");
     
@@ -10,10 +28,8 @@ CSS: $("li").css("background-color","skyblue");
 
 We can see CSS significantly shortens the code for us, allowing our code to be more organization.
 
-
+Example of how we use jQuery are below.
 */
-
-// Example of how we use jQuery are below.
 
 // Select all divs and give them a purple background
 $("div").css("background-color","purple");
