@@ -16,4 +16,10 @@ $("button").on("click", function() {
 	$('div').slideToggle();
 })
 
-*?
+
+One key difference between click() and on('click').
+
+click() adds listeneres for existing elements
+on() adds listeners for all potential future elements 
+
+*/
